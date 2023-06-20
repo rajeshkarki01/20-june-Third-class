@@ -9,4 +9,9 @@ const person = {
   
   const c = person.firstName;
   const a = person.fullName();
-  console.log(c, a);
+  console.log(c, a); 
+
+  //user list
+   
+  const { password,phone,..rest}=user;
+  console.log({rest});
